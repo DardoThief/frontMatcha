@@ -1,0 +1,42 @@
+.tittle {
+  width: 256px;
+  height: 28px;
+  font-family: SBSansInterface-Regular;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #000000;
+  margin: 10px 0 24px 0px;
+}
+.date_time {
+  width: 260px;
+  height: 20px;
+  font-family: SBSansInterface-Semibold;
+  font-size: 12px;
+  line-height: 1.67;
+  color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #9b9b9b;
+  margin-bottom: 0.7vw;
+}
+.defis {
+  width: 8px;
+  height: 24px;
+  margin: 0 10px;
+  font-family: SBSansInterface-Regular;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}

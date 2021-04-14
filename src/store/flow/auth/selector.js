@@ -1,0 +1,9 @@
+export const authSelector = (store) => store.auth;
+export const isLoggedInSelector = (store) => authSelector(store).isLoggedIn;
+export const tokenSelector = (store) => authSelector(store).Token;
+export const idSelector = (store) => authSelector(store).id;
+export const eventIdSelector = (store) => authSelector(store).id;
+export const isMobileSelector = (store) => authSelector(store).isMobile;
+export const widthSelector = (store) => authSelector(store).width;
+export const heightSelector = (store) => authSelector(store).height;
+export const isLoadingSelector = (store) => authSelector(store).isLoading;

@@ -1,0 +1,26 @@
+.title {
+  font-family: SBSansInterface-Semibold;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: black;
+  @media all and (max-width: 800px) {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}
+
+.sub {
+  font-family: SBSansInterface-Regular;
+  font-size: 14px;
+  line-height: 1.64;
+  color: #9b9b9b;
+  text-align: center;
+  margin-top: 4px;
+  @media all and (max-width: 800px) {
+    font-size: 13px;
+    line-height: 1.46;
+    margin-top: 8px;
+  }
+}
+

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.containerStripLayer {
+  min-height: 60px;
+}
+.logo {
+  width: 143px;
+  min-width: 143px;
+  margin-left: 8px;
+}
+.rightSection {
+  display: flex;
+}
+.logoLogin {
+  width: 97px;
+  min-width: 97px;
+  margin-left: 24px;
+}

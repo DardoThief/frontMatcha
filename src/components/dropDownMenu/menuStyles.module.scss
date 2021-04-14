@@ -1,0 +1,42 @@
+.container {
+  flex-direction: column;
+  margin-bottom: 1.111111vw;
+  cursor: pointer;
+  display: flex;
+  font-family: SBSansInterface-Regular;
+  @media screen and (min-width: 1680px) {
+    margin-bottom: 16px;
+  }
+}
+
+.list {
+  overflow-y: scroll;
+  --ms-overflow-y: scroll;
+  overflow-x: hidden;
+  --ms-overflow-x: hidden;
+  list-style: none;
+  position: relative;
+}
+
+.delimiter {
+  width: 82.5%;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 2.66666vw 0 0.66666vw 16.6px;
+  @media screen and (min-width: 1680px) {
+    margin: 30px 0 14px 16.6px;
+  }
+}
+
+@keyframes menu-ease-in {
+  0% {
+    display: block;
+    margin-left: -500px;
+    width: 12.8vw;
+  }
+  89% {
+    width: 12.8vw;
+  }
+  100% {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.ant-notification-topRight {
+  top: 96px !important;
+  margin-right: 32px;
+  margin-left: 32px !important;
+  @media all and (min-width: 1440px) {
+    margin-right: calc((100vw - 1440px) / 2 + 32px);
+  }
+}
+.ant-notification-notice {
+  margin-left: 32px;
+}

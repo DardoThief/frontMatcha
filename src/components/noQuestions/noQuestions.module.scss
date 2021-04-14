@@ -1,0 +1,18 @@
+.noQuestionsMain {
+  height: 458px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: -24px 80px 0;
+  @media all and (max-width: 800px) {
+    margin: 0 20px;
+    height: 230px;
+  }
+}
+
+.sad {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 20px;
+}

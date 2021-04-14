@@ -1,0 +1,144 @@
+.rs-picker-toggle-value {
+  display: flex;
+  align-items: center;
+  width: 206px;
+  height: 30px;
+  margin: 0 18px 0 0;
+  font-family: SBSansInterface-Regular;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000 !important;
+}
+.ant-time-picker {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: solid 2px #e5e5e5;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.ant-time-picker-input {
+  width: 90px;
+  height: 24px;
+  font-family: SBSansInterface-Regular;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+.rs-btn {
+  width: 270px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 8px;
+  border: solid 2px #e5e5e5 !important;
+  background-color: #ffffff;
+}
+.rs-picker-daterange {
+  padding-right: 28px;
+}
+.rs-picker-toggle-clean {
+  margin-top: 10px;
+}
+
+.rs-picker-toggle-caret {
+  padding-top: 9px;
+}
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex !important;
+  align-items: center;
+}
+.rs-picker-default .rs-picker-toggle.rs-btn:focus {
+  border-color: #10bf6a !important;
+  transition: border-color 1s;
+}
+.rs-calendar {
+  width: 232px;
+  height: 296px;
+  margin: 100px 44px 0 12px;
+  padding: 22px 22px 15px 16px;
+  border-radius: 6px;
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.12), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  font-family: SBSansInterface-Regular;
+}
+.rs-picker-toolbar-right-btn-ok {
+  background-color: #10bf6a;
+  font-family: SBSansInterface-Regular;
+}
+.rs-picker-daterange-header {
+  display: none;
+}
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+  border-color: #10bf6a !important;
+  background-color: #10bf6a !important;
+}
+.rs-calendar-table-cell-in-range::before {
+  background-color: rgba(16, 191, 106, 0.1);
+}
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-content {
+  border: 1px solid #10bf6a;
+}
+.rs-picker-toolbar-right-btn-ok.rs-picker-toolbar-btn-disabled, .rs-picker-toolbar-right-btn-ok.rs-picker-toolbar-btn-disabled:hover, .rs-picker-toolbar-right-btn-ok.rs-picker-toolbar-btn-disabled:hover:active {
+  background-color: #10bf6a;
+}
+.rs-picker-daterange-menu .rs-picker-toolbar {
+  margin-top: 0;
+}
+.rs-picker-toolbar {
+  border-top: 0;
+}
+.rs-picker-toggle .rs-picker-toggle-placeholder {
+  font-family: SBSansInterface-Regular;
+  font-size: 15px;
+  color: #a9a9a9;
+  opacity: 0.73;
+}
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  margin-bottom: 10px;
+}
+
+.rs-picker-toolbar-right-btn-ok:not(.rs-btn-disabled):hover {
+  background-color: #10bf6a;
+  opacity: 0.9;
+ }
+.rs-picker-menu  {
+  z-index: 1000;
+}
+.ant-time-picker-panel-select li:hover {
+  background: rgba(16, 191, 106, 0.1);
+}
+.ant-time-picker-panel-select li:focus {
+  color: #10bf6a;
+}
+.rs-calendar-month-dropdown-cell-active .rs-calendar-month-dropdown-cell-content {
+  border-color: #10bf6a;
+  background-color: #10bf6a;
+}
+.rs-calendar-month-dropdown-cell-content:hover, .rs-calendar-table-cell-content:hover {
+  background-color: rgba(16, 191, 106, 0.1);
+}
+.rs-calendar-month-dropdown-year-active {
+  color: #10bf6a;
+}
+.rs-calendar-show-month-dropdown .rs-calendar-header-title-date {
+  color: #10bf6a;
+}
+.rs-picker-cleanable.rs-picker-date .rs-picker-toggle.rs-btn, .rs-picker-cleanable.rs-picker-daterange .rs-picker-toggle.rs-btn:focus {
+  border-color: #10bf6a !important;
+  transition: border-color 1s;
+}
+.ant-time-picker:focus {
+  border-color: #10bf6a !important;
+  transition: border-color 1s;
+}
+.ant-time-picker-input:focus {
+  border-color: transparent;
+  box-shadow: none;
+}

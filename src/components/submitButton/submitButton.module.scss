@@ -1,0 +1,28 @@
+.submitBtn {
+  width: 177px;
+  height: 40px;
+  border-radius: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8abb3;
+  font-family: SBSansInterface-Semibold;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+
+  &:disabled {
+    background-color: #a8abb3;
+  }
+}
+
+.submitWrapper {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  background-color: #10bf6a;
+  cursor: pointer;
+}

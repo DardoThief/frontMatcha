@@ -1,0 +1,143 @@
+.oval {
+  width: 24px;
+  height: 24px;
+  }
+
+.eventsContainer {
+}
+
+.img {
+  width: 13px;
+  height: 13px;
+}
+
+.currentEventName {
+  font-family: SBSansInterface-Regular;
+  line-height: 1.75;
+  margin: 0 16px;
+  flex: 1;
+  opacity: 0.5;
+  font-size: 16px;
+  color: #000000;
+}
+
+.authError {
+  font-family: SBSansInterface-Regular;
+  font-size: 12px;
+  color: #e50332;
+  min-height: 18px;
+}
+
+.Oval {
+  width: 24px;
+  height: 24px;
+  border: solid 2px #10bf6a;
+  background-color: #10bf6a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Oval2 {
+  width: 24px;
+  height: 24px;
+  border: solid 2px #dadada;
+  border-radius: 12px;
+}
+
+.event {
+  width: 100%;
+  min-height: 98px;
+  background-color: white;
+  padding: 22px 30px 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  background-color: rgba(242, 243, 246, 0.5);
+  &:before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    bottom: 0;
+    height: 1px;
+    width: calc(100% - 54px);
+    border-bottom: 1px solid #e5e5e5;
+  }
+  &:first-child {
+    border-radius: 10px 10px 0 0;
+  }
+  &:last-child {
+    border-radius: 0 0 10px 10px;
+    &:before {
+      border-bottom: initial;
+    }
+  }
+}
+
+.modalEventName {
+  font-family: SBSansInterface-Semibold;
+  font-size: 20px;
+  line-height: 1.4;
+  color: black;
+  max-width: 90.5%;
+}
+
+.mainFlex {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.Rectangle {
+  width: 1px;
+  height: 33px;
+  background-color: #d8d8d8;
+  margin-left: 17px;
+}
+
+.sberbank {
+  margin-right: 17px;
+}
+
+.CombinedShape {
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: #10bf6a;
+  margin-left: auto;
+  display: flex;
+  padding: 0 18px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.radio {
+  width: 22px;
+  height: 18px;
+}
+
+.logout {
+  height: 16px;
+}
+
+.available {
+  margin-left: 9px;
+  font-family: SBSansInterface-Semibold;
+  font-size: 14px;
+  line-height: 2;
+  color: #ffffff;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.button {
+  cursor: pointer;
+}

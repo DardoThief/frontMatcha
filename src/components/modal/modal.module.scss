@@ -1,0 +1,43 @@
+.modal__container_simple {
+  margin-top: 7.813vw; // 150px;
+  max-width: 465px;
+}
+.modal__container_search {
+  margin-top: 0;
+  @media all and (max-width: 800px) {
+    max-width: unset;
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+.modal__clear {
+  font-family: SeroPro;
+  font-size: 15px;
+  color: #101c2d;
+  letter-spacing: 0.11px;
+  opacity: 50%;
+  width: min-content;
+  position: absolute;
+  right: 20px;
+}
+.modal__title {
+  font-family: SBSansInterface-Semibold;
+  font-size: 20px;
+  line-height: 1.4;
+  position: relative;
+  display: flex;
+  color: black;
+}
+.modal__titleReset {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+}
+.modal__footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vw;
+}

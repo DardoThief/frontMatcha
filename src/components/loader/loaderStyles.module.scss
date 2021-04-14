@@ -1,0 +1,14 @@
+.spinner {
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
+  margin: -10px;
+  animation: rotate 1.2s infinite linear;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}

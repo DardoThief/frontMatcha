@@ -1,0 +1,45 @@
+.ant-modal-confirm-btns > .ant-btn-danger {
+  background-color: #10bf6a !important;
+  color: white !important;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.ant-modal-confirm-btns > .ant-btn-disabled {
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+  color: black !important;;
+  background-color: #f2f3f6 !important;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns button + button {
+  @media all and (max-width: 800px) {
+    margin-left: 0;
+  }
+}
+
+.ant-modal-confirm-body .ant-modal-confirm-title {
+  font-family: SBSansInterface-Semibold;
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+.ant-modal-confirm .ant-modal-body {
+  padding: 0 16px 32px !important;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns {
+  margin-top: 64px;
+}
+
+.ant-modal-confirm-body .ant-modal-confirm-content {
+  font-family: SBSansInterface-Regular;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  margin-top: 24px;
+}

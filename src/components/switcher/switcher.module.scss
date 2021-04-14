@@ -1,0 +1,18 @@
+.switcher_container {
+  z-index: 11;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  background-color: #B8D36A;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  @media all and (max-width: 800px) {
+    //margin: 20px 20px 0 20px !important;
+    margin-top: 20px;
+    height: 34px;
+    padding: 2px;
+  }
+}
+
+.switcher_container :focus {
+  background: #9FB75D;
+}

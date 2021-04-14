@@ -1,0 +1,41 @@
+.pagination {
+  &__container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.ant-pagination-item a {
+  color: black;
+  font-family: SBSansInterface-Regular;
+}
+.ant-pagination-item-active {
+  width: 20px;
+  height: 24px;
+  border-radius: 6px;
+  border: 1px solid #10bf6a !important;
+}
+.ant-pagination.mini .ant-pagination-item {
+  min-width: 20px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.ant-pagination {
+  display: flex;
+}
+
+.ant-pagination-item-active a {
+  color: #10bf6a;
+}
+.ant-pagination-item:focus a {
+  color: #10bf6a !important;
+}
+.ant-pagination-item:hover a {
+  color: #10bf6a !important;
+}

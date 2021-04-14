@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+}
+.input {
+  height: 3.611vw; //52px
+  min-height: 56px;
+  max-height: 60px;
+  outline: none;
+  border-radius: 0.556vw;
+  border: solid 2px #eeeeee;
+  width: 100%;
+  font-size: 16px;
+  font-family: SBSansInterface-Regular;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 0 1.111vw;
+  @media all and (max-width: 1000px) {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+  @media all and (min-width: 1680px) {
+    font-size: 17px;
+    padding: 0 18px;
+  }
+}
+
+.inputicon {
+  display: flex;
+  align-items: center;
+}
+
+.input:focus {
+  border-color: #10bf6a;
+  transition: border-color 1s;
+}
+
+.label {
+  font-family: SBSansInterface-Semibold;
+  font-size: 12px;
+  color: #9b9b9b;
+  line-height: 1.67;
+  margin-bottom: 0.7vw;
+  text-transform: uppercase;
+}

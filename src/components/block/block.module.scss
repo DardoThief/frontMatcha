@@ -1,0 +1,33 @@
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.element {
+    min-height: 88px;
+    border-radius: 10px;
+    background-color: #f2f3f6;
+    padding: 12px 16px;
+    cursor: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: SBSansInterface-Semibold;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+
+    @media all and (max-width: 800px) {
+        min-height: 70px;
+        font-size: 14px;
+    }
+}
+.cursor {
+    cursor: pointer;
+}
+.wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

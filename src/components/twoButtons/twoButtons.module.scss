@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 32px;
+  width: 100%;
+}
+.container:not(:last-child) {
+  border-bottom: 1px solid #cccccc;
+}
+.imgContainer {
+  width: 56px;
+  min-width: 56px;
+  height: 56px;
+  min-height: 56px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  overflow: hidden;
+  background-color: rgba(77, 77, 77, 0.5);
+}
+.imgCard {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.imgTitleContainer {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  width: inherit;
+  cursor: pointer;
+}
+.title {
+  font-size: 20px;
+  font-family: SBSansInterface-Semibold;
+  line-height: 1.4;
+  color: #000000;
+}
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconEdit {
+  width: 13px;
+  height: 14px;
+  object-fit: contain;
+  margin-right: 22px;
+  cursor: pointer;
+}
+.iconDelete {
+  width: 14px;
+  height: 17px;
+  object-fit: contain;
+}
+.iconDelete_container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.opacity {
+  opacity: 0.5;
+}

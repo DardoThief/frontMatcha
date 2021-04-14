@@ -1,0 +1,96 @@
+.ant-radio-button-wrapper {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  outline: none;
+  border: none;
+  min-height: 30px !important;
+  &:hover {
+    opacity: unset !important;
+    color: black !important;
+  }
+  @media all and (max-width: 800px) {
+    min-height: 30px;
+    height: 30px;
+  }
+}
+.ant-radio-button {
+ display: none;
+}
+
+.ant-radio-button-wrapper > span {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.66);
+  white-space: nowrap;
+  @media all and (max-width: 800px) {
+    line-height: 1.2;
+    letter-spacing: -0.15px;
+  }
+}
+
+.ant-radio-button-wrapper-checked > span {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.ant-radio-button-wrapper-checked:first-child {
+  border-radius: 5px 0 0 0;
+}
+
+.ant-radio-button-wrapper-checked:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.ant-radio-button-wrapper:first-child {
+  border: none;
+  border-left: none!important;
+}
+
+.ant-radio-button-wrapper {
+  border: none;
+  border-left: none !important;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.ant-radio-button-wrapper .ant-radio-button-wrapper-checked {
+  border-color: #9FB75D;
+  //border-radius: 8px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+background: #ffffff;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+border-color: #9FB75D;
+//border-radius: 8px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+background: #9FB75D;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background-color: unset !important;
+}
+
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+background: #98B24B;
+border: none;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):focus-within {
+  outline: none;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-disabled):focus-within {
+  outline: none;
+}
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: transparent;
+}

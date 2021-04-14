@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #C5DAC6;
+}
+
+.box {
+  width: 600px;
+  position: absolute;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EBE3E7;
+  text-align: center;
+}
+
+.container {
+  padding: 40px;
+}
+
+.form__groupField input{
+  background: #DACDD0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  padding: 14px 10px;
+  width: 400px;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.form__submit {
+  color: white;
+  background: #C4C4C4;
+  display: block;
+  padding: 20px;
+  font-size: 16px;
+  margin: 20px auto;
+  text-align: center;
+  border: none;
+  width: 300px;
+  border-radius: 35px;
+  outline: none;
+}
+
+.form__groupFieldError {
+  color: #C588DB;
+  position: relative;
+  top: -8px;
+}
+
+.form__forgotPassword {
+  color: #98B24B;
+  text-align: center;
+}

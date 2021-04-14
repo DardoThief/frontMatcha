@@ -1,0 +1,12 @@
+.button {
+  margin-right: 1vw;
+  margin-top: -0.07vw;
+  color: #081425;
+  font-size: 15px;
+  background-color: transparent;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

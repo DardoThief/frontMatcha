@@ -1,0 +1,51 @@
+.ant-modal {
+  width: 630px;
+  @media all and (max-width: 800px) {
+    width: 100% !important;
+  }
+}
+
+.ant-modal-body {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  @media all and (max-width: 800px) {
+   padding: 0 20px 32px 20px !important;
+    border-top: unset;
+  }
+}
+
+.ant-modal-content {
+  border-radius: 8px;
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.12),
+    0 0 1px 0 rgba(0, 0, 0, 0.12);
+  @media all and (max-width: 800px) {
+    box-shadow: unset;
+    background-color: #f8f9fa;
+  }
+}
+
+.ant-modal-header {
+  padding: 24px;
+  color: #000000;
+  background: #fff;
+  border-radius: inherit;
+  border-bottom: unset;
+}
+.ant-btn-background-ghost.ant-btn-danger {
+  height: 42px;
+  border-radius: 21px;
+  padding: 11px 50px;
+  border: none;
+  font-size: 15px;
+  font-family: SBSansInterface-Semibold;
+}
+.ant-btn-background-ghost.ant-btn-danger:hover {
+  border: none;
+}
+.ant-btn {
+  height: 42px;
+  border-radius: 21px;
+  padding: 11px 50px;
+  border: none;
+  font-size: 15px;
+  font-family: SBSansInterface-Semibold;
+}

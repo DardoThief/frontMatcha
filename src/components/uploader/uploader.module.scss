@@ -1,0 +1,47 @@
+.container {
+  height: 70px;
+  border-radius: 10px;
+  border: dashed 2px #e5e5e5;
+  background-color: rgba(160, 160, 160, 0.05);
+  display: flex;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+.notFile {
+  justify-content: center;
+}
+.haveFile {
+  justify-content: space-around;
+}
+.wrongFile {
+  justify-content: center;
+  border-radius: 10px;
+  border: dashed 2px #fe5b3b;
+}
+.wrong {
+  color: #fe5b3b !important;
+}
+.attach {
+  width: 14px;
+  height: 16px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.delIc {
+  width: 20px;
+  height: 22px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+.name {
+  font-family: SBSansInterface-Semibold;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #b2b2b2;
+  max-width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-height: 40px;
+}
